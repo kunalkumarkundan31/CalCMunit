@@ -7,7 +7,7 @@ node {
   }
   
     stage('Checkout Source Code') {
-    echo 'Fetching the code'
+    echo 'Fetching the code1'
 	git branch: 'devBranch', url: 'https://github.com/kunalkumarkundan31/Calculator.git'
     def mvnHome = tool 'MVN_HOME'
     def comm = mvnHome + '/bin' 
